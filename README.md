@@ -35,7 +35,7 @@ Certifique-se de que você tenha instalado o seguinte:
 - `/api/auth/signup` - Endpoint para registrar novos usuários.
 - **Rotas protegidas** - Qualquer rota protegida requer um token JWT no cabeçalho `Authorization: Bearer <TOKEN>`.
 
-### Para testes, exucutar primeiro no banco os seguintes inserts:
+### Para testes, executar primeiro no banco os seguintes inserts:
 
 INSERT INTO roles(name) VALUES('ROLE_USER');  
 INSERT INTO roles(name) VALUES('ROLE_MODERATOR');  
